@@ -418,8 +418,8 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{1.5mm}
-\newcommand{\acvSectionContentTopSkip}{1.5mm}
+\newcommand{\acvSectionTopSkip}{1mm}
+\newcommand{\acvSectionContentTopSkip}{1mm}
 
 
 %-------------------------------------------------------------------------------
@@ -531,7 +531,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
+          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\acvHeaderIconSep\@linkedin}%
         }%
       \ifthenelse{\isundefined{\@orcid}}%
         {}%
